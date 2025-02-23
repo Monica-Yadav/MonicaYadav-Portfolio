@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Monica Yadav"/>
+    <meta property="og:description" content="Monica Yadav"/>
+    <meta property="og:type" content="website" />
+    <meta
+        property="og:image"
+        content="https://freefolio.web.app/images/outlines.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="Monica Yadav">
+    <meta name="twitter:title" content="Monica Yadav" />
+    <meta name="twitter:description" content="Monica Yadav" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <title>Monica Yadav Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-nav">
+        <div class="nav-logo">
+          <!-- You can put a logo here -->
+          <img src="assets/images/logo.png" alt="Monica Yadav">
+          <!-- you can remove this -->
+        </div>
+
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        ></button>
+
+        <ul id="primary-nav" class="primary-nav" data-visible="false">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="left-hero" data-aos="fade-up">
+            <p class="txt__upper">Hey there,</p>
+            <h1 class="txt">I am Monica Yadav</h1>
+            <h2 class="txt__under">Data Engineer 💻</h2>
+            <p class="desc">Infosys</p>
+            <div class="soclinks">
+              <a href="#contact" class="btn">Let's connect!</a>
+            </div>
+          </div>
+          <div class="right-hero" data-aos="fade-up">
+            <img id="hero__img" src="assets/images/MyPic.JPG" alt="Monica Yadav">
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-highlight" data-aos="fade-up">ABOUT</div>
+        <div class="about-container" data-aos="fade-up">
+          <div class="about-card">
+            <section class="about-content">
+              <h2>> About</h2>
+              <!-- About template -->
+              <p>
+                🎓 I hold a Master’s in Computer Applications (MCA) and work as a <strong>Senior System Engineer at Infosys</strong>.  
+              </p>
+              <p>
+                ☁️ With expertise in <strong>Azure, Databricks, and big data solutions</strong>, I specialize in cloud technologies, data engineering, and software development.  
+              </p>
+              <p>
+                🚀 Passionate about solving <strong>complex data challenges</strong>, I thrive on optimizing cloud architectures and building <strong>scalable, high-performance solutions</strong>.  
+              </p>
+            </section>
+            
+
+            <section class="about-content tech-stack-section">
+              <h3>My Current Tech Stack</h3>
+              <div class="tech-stack-grid">
+                
+                <!-- Azure -->
+                <div class="tech-stack">
+                  <img src="./assets/icons/azure-svgrepo-com.svg" alt="Azure-icon" />
+                </div>
+            
+                <!-- AzureDevops -->
+                <div class="tech-stack">
+                  <img src="./assets/icons/Azure-DevOps.svg" alt="Databricks-icon" />
+                </div>
+            
+                <!-- SQL -->
+                <div class="tech-stack">
+                  <img src="./assets/icons/sql.svg" alt="SQL-icon" />
+                </div>
+            
+                <!-- Python -->
+                <div class="tech-stack">
+                  <img src="./assets/icons/python-svgrepo-com.svg" alt="Python-icon" />
+                </div>
+            
+                <!-- Azure Data Factory -->
+                <div class="tech-stack">
+                  <img src="./assets/icons/Data-Factory (1).svg" alt="Azure Data Factory-icon" />
+                </div>
+            
+                <!-- Git -->
+                <div class="tech-stack">
+                  <img src="./assets/icons/git.svg" alt="Git-icon" />
+                </div>
+            
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="section-highlight" data-aos="fade-up">Portfolio</div>
+        <div class="portfolio-container" data-aos="fade-up">
+          <div class="portfolio-card">
+            <div class="portfolio-content">
+              <h2>> Portfolio</h2>
+
+              <!-- input projects inside project container -->
+              <div class="project-container">
+
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/project2.jpg"
+                    alt="project-1"
+                  />
+                  <h3>Automated Incident Reporting with ADF, Snowflake & Power BI</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Automates ServiceNow P2 incident processing, categorization, and reporting using ADF, Snowflake, and Power BI for real-time insights.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/icons/project1.png"
+                    alt="project-1"
+                  />
+                  <h3>Dhyanam-TheMeditationApp</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    This Application would motivate people to try out new things such as different ways/techniques of meditation to
+                    calm their restless soul.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+
+
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-highlight" data-aos="fade-up">Contacts</h2>
+        <div class="contact-container" data-aos="fade-up">
+          <div class="contact-card">
+            <h2>> Contacts</h2>
+            <p>You can contact directly me through these following links</p>
+
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/monica-yadav-/" target="_blank" rel="noopener noreferrer">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/linkedin-icon.svg"
+                  alt="linkedin-icon"
+                />
+                LinkedIn
+              </a>
+
+              <a href="https://github.com/Monica-Yadav"  target="_blank" rel="noopener noreferrer">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/twitter-icon.svg"
+                  alt="linkedin-icon"
+                />
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+       Made with 💞 by
+        <a href="#" target="_blank">Monica Yadav</a>
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>       
+      AOS.init({
+        once: true,
+        delay: 0
+      });
+    </script>
+  </body>
+</html>
